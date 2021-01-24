@@ -2,7 +2,7 @@
 
 ## Description
 
-An app to track the user's deposits and expenses - online or offline. Offline transactions are added to the page then officially populate the total when brought online again.
+A PWA app to track the user's deposits and expenses - online or offline. Offline transactions are added to the page then officially populate the total when brought online again.
 
 ## Tech Used
 
@@ -11,6 +11,7 @@ HTML, CSS, Bootstrap, JavaScript, MongoDB, Mongoose, Express, Compression, Lite-
 ## Heroku Link
 
 https://agile-sea-97418.herokuapp.com/
+Works locally, works every other time in Heroku
 
 ## Screenshots
 
