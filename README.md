@@ -2,6 +2,8 @@
 
 ## Description
 
+An app to track the user's deposits and expenses - online or offline. Offline transactions are added to the page then officially populate the total when brought online again.
+
 ## Tech Used
 
 HTML, CSS, Bootstrap, JavaScript, MongoDB, Mongoose, Express, Compression, Lite-Server, Morgan
