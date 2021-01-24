@@ -21,12 +21,13 @@ request.onerror = (event) => {
     console.log('Oops! ' + event.target.errorCode);
 };
 
-saveRecord(record) => {
+let saveRecord = record => {
     //transaction pending, readwrite
-
+    const transaction = db.transaction(['pending'], 'readwrite');
     //access pending object
-
+    const store = transaction.objectStore('pending');
     //add record
+    store.add(record);
 }
 
 //checkdatabase
