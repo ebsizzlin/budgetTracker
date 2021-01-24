@@ -16,3 +16,13 @@ request.onsuccess = (event) => {
         checkDatabase();
     }
 }
+
+//onerror
+
+//saverecord
+
+//checkdatabase
+
+    //onsuccess getall
+
+//listener
