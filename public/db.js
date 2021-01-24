@@ -51,11 +51,14 @@ let checkDatabase = () => {
             .then(response => response.json())
             .then(() => {
                 //success
+                const transaction = db.transaction(['pending'], 'readwrite');
                 //access object
+                const store = transaction.objectStore('pending');
                 //clear
-            })
-        }
-    }    
-}
+                store.clear();
+            });
+        };
+    };
+};
 
 //listener
