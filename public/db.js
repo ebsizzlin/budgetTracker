@@ -61,4 +61,4 @@ let checkDatabase = () => {
     };
 };
 
-//listener
+window.addEventListener('online', checkDatabase);
