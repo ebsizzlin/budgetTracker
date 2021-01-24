@@ -15,9 +15,11 @@ request.onsuccess = (event) => {
     if (navigator.onLine) {
         checkDatabase();
     }
-}
+};
 
-//onerror
+request.onerror = (event) => {
+    console.log('Oops! ' + event.target.errorCode);
+};
 
 //saverecord
 
