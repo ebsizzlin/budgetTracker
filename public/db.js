@@ -30,8 +30,16 @@ let saveRecord = record => {
     store.add(record);
 }
 
-//checkdatabase
+let checkDatabase = () => {
+    //transaction pending, readwrite
+    
+    //access pending object
+
+    //add record
+    
 
     //onsuccess getall
+    
+}
 
 //listener
