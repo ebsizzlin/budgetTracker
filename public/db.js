@@ -38,8 +38,24 @@ let checkDatabase = () => {
     //add record
     const getAll = store.getAll();
 
-    //onsuccess getall
-    
+    getAll.onsuccess = () => {
+        if (getAll.result.length > 0) {
+            fetch('/api/transaction/bulk', {
+                method: 'POST',
+                body: JSON.stringify(getAll.result),
+                headers: {
+                    Accept: 'application/json, text/plain, */*',
+                    "Content-Type": 'application/json'
+                }
+            })
+            .then(response => response.json())
+            .then(() => {
+                //success
+                //access object
+                //clear
+            })
+        }
+    }    
 }
 
 //listener
