@@ -39,7 +39,6 @@ self.addEventListener("activate", (evt) => {
     self.clients.claim();
 });
 
-//listener fetch
 self.addEventListener("fetch", (evt) => {
     if(evt.request.url.includes("/api/transaction")) {
         console.log("[Service Worker] Fetch (data)", evt.request.url);
