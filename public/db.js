@@ -32,11 +32,11 @@ let saveRecord = record => {
 
 let checkDatabase = () => {
     //transaction pending, readwrite
-    
+    const transaction = db.transaction(['pending'], 'readwrite');
     //access pending object
-
+    const store = transaction.objectStore('pending');
     //add record
-    
+    const getAll = store.getAll();
 
     //onsuccess getall
     
