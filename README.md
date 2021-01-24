@@ -14,4 +14,5 @@ https://agile-sea-97418.herokuapp.com/
 
 ## Screenshots
 
-<img width="962" alt="Screen Shot 2021-01-23 at 11 34 28 PM" src="https://user-images.githubusercontent.com/70185995/105621360-ab1a2780-5dd4-11eb-82a5-53f4dad288a9.png">
+<img width="789" alt="Screen Shot 2021-01-23 at 11 50 46 PM" src="https://user-images.githubusercontent.com/70185995/105621518-44960900-5dd6-11eb-89ee-0b32e0e2ed5a.png">
+<img width="790" alt="Screen Shot 2021-01-23 at 11 53 46 PM" src="https://user-images.githubusercontent.com/70185995/105621519-452e9f80-5dd6-11eb-9503-4d561995c5aa.png">
