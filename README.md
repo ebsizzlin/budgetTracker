@@ -11,7 +11,6 @@ HTML, CSS, Bootstrap, JavaScript, MongoDB, Mongoose, Express, Compression, Lite-
 ## Heroku Link
 
 https://agile-sea-97418.herokuapp.com/
-Works locally, works every other time in Heroku
 
 ## Screenshots
 
